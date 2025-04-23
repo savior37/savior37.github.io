@@ -1,0 +1,92 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive; /* Ganti dengan font yang Anda pilih */
+}
+
+.container-navbar {
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    width: 100%;
+}
+
+.ul-navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: blueviolet;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.li-navbar:hover {
+    background-color: black;
+    color: white; /* Ubah warna teks saat hover */
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: purple;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-content {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px; /* Tambahkan padding */
+}
+
+.a-content {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px; /* Kurangi radius untuk tampilan lebih modern */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Tambahkan efek transform */
+}
+
+.a-content:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.img-content {
+    width: 50%;
+    height: auto; /* Ubah height menjadi auto untuk menjaga rasio gambar */
+}
+
+.container-footer {
+    height: 10vh;
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    color: purple;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan teks */
+}
